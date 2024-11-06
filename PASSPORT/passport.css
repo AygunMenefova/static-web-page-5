@@ -1,0 +1,398 @@
+.container {
+    width: 1500px;
+    margin: auto;
+}
+
+.header-bg-img {
+    background: linear-gradient(#13131346, #14141450), url(/PASSPORT/img/hero_1.jpg.webp)center/cover;
+    height: 100vh;
+}
+
+#header1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    padding: 0 500px 0 0;
+}
+
+.passport {
+    font: 600 25px arial;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.navbar a {
+    font: 500 16px arial;
+    color: #fff;
+}
+
+.btn button {
+    background: none;
+    font: 500 14px arial;
+    color: #fff;
+    border-radius: 50px;
+    padding: 8px 20px;
+    border: 1px solid #999999;
+}
+
+.btn button:hover {
+    background-color: #fc8621;
+}
+
+.text {
+    position: relative;
+}
+
+.text h1 {
+    font: 600 60px arial;
+    color: #fff;
+    padding: 100px 0 0 100px;
+    width: 480px;
+}
+
+.text button {
+    padding: 30px;
+    border-radius: 50px;
+    margin: 50px 0 0 100px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+
+.btn2 button {
+    padding: 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color: #fff;
+    position: absolute;
+    bottom: 6px;
+    left: 6px;
+}
+
+.text i {
+    font-size: 20px;
+    position: absolute;
+    left: 125px;
+    bottom: 20px;
+    z-index: 999;
+}
+
+.text h2 {
+    font: 500 16px arial;
+    color: #fff;
+    padding: 70px 100px 0 10px;
+    display: inline-block;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.video {
+    display: flex;
+}
+
+.text1 i {
+    color: #fff;
+    font-size: 10px;
+}
+
+.text1 button {
+    background: #10101064;
+    border-radius: 50px;
+    padding: 10px 15px;
+    margin: 100px 0 0 120px;
+    border: 0;
+}
+
+.text1 h1 {
+    font: 500 15px arial;
+    color: #fff;
+    padding: 70px 100px 0 10px;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+.container1 {
+    width: 1500px;
+    margin: auto;
+    background-color: #f8f9fa;
+}
+
+.serve h1 {
+    padding: 200px 0 0 0;
+    font: 600 20px arial;
+    color: #fc8621;
+    text-transform: uppercase;
+}
+
+.serve h2 {
+    padding: 10px 0 20px 0;
+    font: 600 50px arial;
+    color: #000;
+
+}
+
+.serve p {
+    padding: 0 0 50px 0;
+    font: 500 16px arial;
+    color: #6c757d;
+}
+
+#head {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px 0 100px;
+
+}
+
+.icon i {
+    padding: 300px 0 0 10px;
+    font-size: 40px;
+    color: #999999;
+    cursor: pointer;
+}
+
+/* .bg-img{
+    background: url(/IMG/about_1.jpg.webp)center/cover;
+    height: 60vh;
+    width: 350px;
+    position: relative;
+}
+.bg-img h1{
+    font: 500 20px arial;
+    color: #fc8621;
+    position: absolute;
+    background-color: #fff;
+    padding: 30px;
+    bottom: -1px;
+    margin-left: 240px; 
+} */
+.maldivs img {
+    width: 400px;
+}
+
+.h1 h1 {
+    font: 500 20px arial;
+    color: #fc8621;
+    position: absolute;
+    background-color: #fff;
+    padding: 30px;
+    bottom: 170px;
+    margin-left: 296px;
+}
+
+.maldivs {
+    position: relative;
+    margin-left: 50px;
+}
+
+#maldivs1 {
+    display: flex;
+    margin-left: 50px;
+}
+
+.maldiv h1 {
+    padding: 20px 0 10px 0;
+    font: 600 25px arial;
+    color: #000;
+}
+
+.maldiv h2 {
+    font: 500 14px arial;
+    color: #999999;
+    padding: 0 0 100px 0;
+}
+
+@media(min-width:300px) and (max-width:768px) {
+    .container {
+        width: 90%;
+    }
+
+    #header1 {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .text {
+        margin: -50px 0 0 -70px;
+    }
+
+    .text h1 {
+        font-size: 30px;
+        width: 70%;
+        margin-top: 50px;
+    }
+
+    .passport {
+        font-size: 20px;
+    }
+
+    .text1 button {
+        margin: 100px 0 0 40px;
+    }
+
+    .text1 h1 {
+        width: 70%;
+        margin: -100px 0 0 80px;
+    }
+}
+@media(max-width:900px) and (min-width:769px) {
+    .container {
+        width: 90%;
+    }
+
+    .passport {
+        margin-left: -40px;
+    }
+
+    .btn button {
+        margin: 50px 0 0 -650px;
+    }
+
+    .navbar ul {
+        margin-left: 110px;
+    }
+}
+
+@media(max-width:1000px) and (min-width:900px) {
+    .container {
+        width: 90%;
+    }
+
+    .passport {
+        margin-left: -40px;
+    }
+
+    .btn button {
+        margin: -10px 0 0 -450px;
+    }
+
+    .navbar ul {
+        margin-left: 60px;
+    }
+}
+
+@media(max-width:1100px) and (min-width:1000px) {
+    .btn button {
+        margin: -10px 0 0 -520px;
+    }
+}
+
+@media(max-width:1300px) and (min-width:1100px) {
+    .btn button {
+        margin: -10px 0 0 -450px;
+    }
+}
+
+@media(max-width:1500px) and (min-width:1300px) {
+    .btn button {
+        margin: -10px 0 0 -350px;
+    }
+}
+
+@media(min-width:300px) and (max-width:768px) {
+    .container1 {
+        width: 90%;
+    }
+
+    .serve h1 {
+        width: 90%;
+        margin: -100px 0 0 -70px;
+    }
+
+    .serve h2 {
+        width: 90%;
+        margin: 10px 0 0 -70px;
+        font-size: 30px;
+    }
+
+    .serve p {
+        width: 90%;
+        margin: 10px 0 0 -70px;
+    }
+
+    .icon i {
+        font-size: 20px;
+        margin: 10px 0 0 -60px;
+    }
+
+    #maldivs1 {
+        flex-wrap: wrap;
+    }
+
+    .maldivs {
+        position: relative;
+    }
+
+    .maldivs img {
+        width: 90%;
+        margin: 10px 0 0 -70px;
+
+    }
+
+    .h1 h1 {
+        position: absolute;
+        left: -274px;
+        bottom: 250px;
+        padding: 20px;
+    }
+
+    .maldiv {
+        width: 90%;
+        margin-left: -70px;
+    }
+}
+
+@media(max-width:1500px) and (min-width:768px) {
+    .container1 {
+        width: 90%;
+    }
+
+    .serve h1 {
+        width: 90%;
+        margin: -100px 0 0 15px;
+    }
+
+    .serve h2 {
+        width: 90%;
+        margin: 10px 0 0 15px;
+        font-size: 30px;
+    }
+
+    .serve p {
+        width: 90%;
+        margin: 10px 0 0 15px;
+    }
+
+    .icon i {
+        margin: 5px -60px 0 -40px;
+    }
+
+    #maldivs1 {
+        flex-wrap: wrap;
+        margin-left: 60px;
+    }
+
+    .maldivs {
+        position: relative;
+    }
+
+    .h1 h1 {
+        position: absolute;
+        bottom: 289px;
+        left: -189px;
+        padding: 20px;
+    }
+}
